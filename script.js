@@ -122,7 +122,7 @@ let dir = 1;
 function bounceBall(){
     if(($("#ball").width() + $("#ball").position().left) >= $(window).width()){
         dir = -1;
-    } else if($("#ball").position().left <= 20) dir = 1;
+    } else if($("#ball").position().left <= 0) dir = 1;
     $("#ball")
         .animate({top: "-90px", left: "+=" + 40 * dir})
         .animate({left: "+=" + 40 * dir, top: "0px"}, bounceBall)
