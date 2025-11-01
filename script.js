@@ -120,7 +120,7 @@ $("#ball").css({
 let dir = 1;
 
 function bounceBall(){
-    if(($("#ball").width() + $("#ball").position().left) >= $(window).width() - 20){
+    if(($("#ball").width() + $("#ball").position().left) >= $(window).width()){
         dir = -1;
     } else if($("#ball").position().left <= 20) dir = 1;
     $("#ball")
