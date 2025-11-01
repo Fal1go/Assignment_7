@@ -47,7 +47,7 @@ $(".slideToggleBtn").click(function(){
     $("#toggleImg").slideToggle();
 });
 
-// Task 5
+// Tasks 5,6,7
 $("#addBtn").click(function(){
     $("ul").append("<li class='newLi'>This is a new &lt;li&gt; added with append");
     $("ul").prepend("<li class='newLi'>This is a new &lt;li&gt; added with prepend");
@@ -75,7 +75,7 @@ $("#email").on("input", function(){
     $("#emailInput").text($(this).val());
 });
 
-
+// Tasks 8,9,10
 $("#box").css({
     "backgroundColor": "blue",
     "width": "128px",
@@ -108,6 +108,7 @@ $("#box3").animate({
     height: "256px"
 })
 
+// Task 11
 $("#ball").css({
     "width": "80px",
     "height": "80px",
